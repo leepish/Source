@@ -6,7 +6,6 @@
 <main class="gh-main">
 
     <article class="gh-article {{post_class}}">
-        {{> "affiliate"}}
         <header class="gh-article-header gh-canvas">
 
             {{#if primary_tag}}
@@ -47,6 +46,7 @@
         </header>
 
         <section class="gh-content gh-canvas is-body{{#if @custom.enable_drop_caps_on_posts}} drop-cap{{/if}}">
+            {{> "affiliate"}}
             {{content}}
         </section>
 
