@@ -2195,7 +2195,7 @@ unless a heading is the very first element in the post content */
 
 .gh-content a {
     color: var(--ghost-accent-color);
-    font-weight: 800;
+    font-weight: 700;
     text-decoration: none;
     border-bottom-style: solid;
     border-bottom-width: 2px;
